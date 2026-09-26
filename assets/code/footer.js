@@ -11,5 +11,5 @@ class Footer extends HTMLElement {
   }
 }
 
-// Hier definierst du das HTML-Tag <page-footer>
-customElements.define('footer', Footer);
+// Name MUSS einen Bindestrich enthalten, z.B. custom-footer
+customElements.define('custom-footer', Footer);
