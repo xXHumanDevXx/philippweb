@@ -2,15 +2,15 @@ const stunde = new Date().getHours();
 let text = "";
 
 if (stunde >= 6 && stunde < 9) {
-    text = "Guten Morgen";
+    text = "Guten Morgen :D";
 } else if (stunde >= 12 && stunde < 14) {
     text = "Guten Mittag";
 } else if (stunde >= 14 && stunde < 18) {
-    text = "Guten Nachmittag";
+    text = "Guten Nachmittag :D";
 } else if (stunde >= 18 && stunde < 22) {
-    text = "Guten Abend";
+    text = "Guten Abend :D";
 } else {
-    text = "Gute Nacht";
+    text = "Gute Nacht :D";
 }
 
 // 1. Neues h2-Element erstellen
