@@ -14,7 +14,7 @@ function date() {
         text = "Gute Nacht";
     }
 
-    document.getElementById("begruessung").innerText = text;
+    document.getElementById("date").innerText = text;
 }
 
 // Das Event ...
