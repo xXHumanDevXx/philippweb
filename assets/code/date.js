@@ -13,7 +13,12 @@ if (stunde >= 6 && stunde < 9) {
     text = "Gute Nacht";
 }
 
-// Erstellt das h1-Element und fügt es direkt in den Body ein
-const ueberschrift = document.createElement("h1");
+// 1. Neues h2-Element erstellen
+const ueberschrift = document.createElement("h2");
 ueberschrift.innerText = text;
-document.body.appendChild(ueberschrift);
+
+// 2. Element gezielt in die section einfügen
+const container = document.getElementById("begruessung-container");
+if (container) {
+    container.appendChild(ueberschrift);
+}
