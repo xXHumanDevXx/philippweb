@@ -18,4 +18,4 @@ function date() {
 }
 
 // Das Event ...
-document.addEventListener("DOMContentLoaded", zeigeBegruessung);
+document.addEventListener("DOMContentLoaded", date);
