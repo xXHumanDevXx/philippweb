@@ -1,4 +1,8 @@
 // Funktion zum Abspielen der Sounds
+
+console.log("Soundboard JavaScript ohne jegliche Probleme geldaden.");
+
+
 function playSound(id) {
   const audio = document.getElementById(id);
   if (audio) {
